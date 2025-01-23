@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Inesquecivel Kessia.</strong>
+                            <p>
+                                Primeiramente, quero dizer que estou elaborando um plano para combater as suas cosquinhas, essa sua maldade vai acabar, Kessia Sena!
+                                Mas, mudando de assunto, que bizarro, né? 1 ano e 3 meses, esse é o tempo que a gente passou dizendo "Te amo" um para o outro todos os dias.
+                                No total, foram 455 dias, 39.312.000 segundos e 655.200 minutos pensando em você, sem parar.
+                            </p>
+                            <p>
+                                Às vezes fico pensando em como o nosso futuro vai ser "GRANDIOSO" e lindo, sim, "GRANDIOSO", porque somos filhos de Deus, e Ele é GRANDIOSO.
+                                Logo, logo vamos compartilhar um ministério, uma casa, uma família e nossos sonhos.
+                                Mal posso esperar para te dar um beijão no dia do casamento. AJSDJASFASFAS.
+                            </p>
+                            <p>
+                                Durante todo esse tempo, eu só consigo pensar em fazer de tudo para que a gente possa casar logo.
+                                Me desculpa se às vezes eu pareço meio distante ou desinteressado. Às vezes, é muita coisa para pensar ao mesmo tempo,
+                                e eu quero muito que nosso futuro dê certo. Por isso, estou focando nisso. Você merece mais atenção,
+                                e eu prometo que vou me esforçar para te dar mais, mas perdoa quando eu não conseguir!
+                            </p>
+                            <p>Fiz uma cartinha fisica para você, mas como a gente não pode se ver hoje, fiz essa, mas sábado vou te entregar pessoalmente! (São diferentes)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
